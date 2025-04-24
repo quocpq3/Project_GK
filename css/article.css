@@ -1,6 +1,6 @@
 .article{
     background-color: #509994;
-    margin-top: 150px;
+    /* margin-top: 150px; */
     height: 800px;
 }
 
@@ -114,7 +114,9 @@
     border: none;
     height: 30px;
     width: 75%;
-
+}
+.button_sumbit>input:focus{
+    outline: none;
 }
 .button_sumbit>button{
     position: absolute;
@@ -126,4 +128,6 @@
     background-color: #f2f9f3;
     color:#509994;
     font-weight: 600;
+    cursor: pointer;
+    
 }

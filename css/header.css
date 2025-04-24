@@ -6,7 +6,9 @@ body{
     list-style: none;
     text-decoration: none;
 }
-
+main{
+    margin: -8px;
+}
 header{
     margin-top: -8px;
     margin-right: -8px;
@@ -33,7 +35,7 @@ header{
     margin-right: 80px; 
     height: 100%;
     display: flex;
-    justify-content: end;
+    justify-content:end;
 }
 .nav_list_item>a{
     height: 40px;

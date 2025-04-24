@@ -68,7 +68,29 @@
     flex-direction: column;
     align-items: center;
     color:#4f9894;
-    height: 400px;
+    height: 100%;
+    padding-bottom: 150px;
+    /* margin-top: 60px; */
+    background-image: url('../img/backgroudImg.png');
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.container_our_starts::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 1;
+}
+.container_our_starts>*{
+    position: relative;
+    z-index: 2; 
 }
 .container_our_starts_title{
     font-size: 45px;
