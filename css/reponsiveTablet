@@ -1,0 +1,139 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Reset và cài đặt cơ bản */
+    body {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    /* Header */
+    .header_container {
+        width: 100%;
+        padding: 20px;
+        display: none;
+    }
+
+    .nav_list_item {
+        gap: 20px;
+    }
+
+    /* Main sections */
+    .section {
+        width: 90%;
+        margin: 40px auto;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section_banner {
+        width: 45%;
+    }
+
+    .section_text {
+        width: 45%;
+        text-align: left;
+    }
+
+    /* Article sections */
+    .article {
+        width: 90%;
+        margin: 40px auto;
+        padding: 20px;
+    }
+
+    .article_list_items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .article_item {
+        width: 100%;
+    }
+
+    /* Pricing section */
+    .article_list_product {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .container_list_product {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .product_item {
+        width: 100%;
+    }
+
+    /* Newsletter section */
+    .article_2 {
+        width: 90%;
+        margin: 40px auto;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .button_sumbit {
+        width: 80%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .button_sumbit input {
+        width: 60%;
+    }
+
+    .button_sumbit button {
+        width: 20%;
+    }
+
+    /* Footer */
+    .container_footer {
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container_footer_coloumn_1 {
+        width: 35%;
+    }
+
+    .container_footer_coloumn_2 {
+        width: 60%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .footer_item {
+        width: 100%;
+    }
+
+    /* Typography adjustments */
+    h1 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
